@@ -82,7 +82,7 @@ text-align: justify;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+   
 }
 #head_5{
     display: flex;
@@ -99,6 +99,7 @@ text-align: justify;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-top: 20px;
    
 }
 .block:hover{
@@ -128,8 +129,7 @@ align-items: center;
 .social {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
-    align-items: center;
+
  }
  .social a{
     text-decoration: none;
@@ -152,16 +152,19 @@ align-items: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100VH;
+    height: 60VH;
     flex-direction: column;
 }
 #home_2{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100VH;
+    height: 60VH;
     flex-direction: column;
 
+}
+#about{
+    height: 70vh;
 }
 .block{
     width: 40vw;
@@ -169,14 +172,20 @@ align-items: center;
    
 
 }
-
+#service{
+    height: 70vh;
+}
 
 #services{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-   
+    height: 60vh;
     flex-direction: column;
+}
+#contact{
+    height: 40vh;
+}
 }
 
 @media (max-width:354px){
